@@ -3,12 +3,16 @@
 @theme {
   /* Dark / Base Colors */
   --color-gunmetal: #00171f;       /* Very dark teal-black, for backgrounds or text */
-  --color-slate: #032f3e;          /* Dark teal, for panels, headers, or secondary backgrounds */
+  --color-blue: #003459;          /* Dark teal, for panels, headers, or secondary backgrounds */
 
   /* Accent / Action Colors */
   --color-aquatic: #007ea7;        /* Medium teal-blue, primary links/buttons */
-  --color-vivid-cyan: #11caf0;     /* Bright cyan, highlights, hover states, icons */
+  --color-cyan: #11caf0;     /* Bright cyan, highlights, hover states, icons */
 
   /* Alert / Attention Colors */
   --color-cherry: #dc3445;         /* Bold red, errors, warnings, or strong calls-to-action */
+}
+
+html {
+  scroll-behavior: smooth;
 }
